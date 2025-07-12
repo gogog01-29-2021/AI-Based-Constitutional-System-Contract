@@ -1,0 +1,12 @@
+/* You typically don't need much custom CSS when using Tailwind. */
+/* This file can be used for any global styles not covered by Tailwind utility classes. */
+
+/* Basic body styles */
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif; /* Ensure Inter font is used */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Add any other global styles here if necessary */

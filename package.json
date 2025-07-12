@@ -1,0 +1,35 @@
+{
+  "name": "ai-republic-constitution",
+  "version": "1.0.0",
+  "description": "Smart contracts and dApp for the AI Republic Constitution.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run scripts/deploy.js --network localhost",
+    "compile": "npx hardhat compile",
+    "start-client": "cd client && npm start"
+  },
+  "keywords": [
+    "solidity",
+    "blockchain",
+    "ai",
+    "constitution",
+    "hardhat"
+  ],
+  "author": "Gemini AI",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "chai": "^4.2.0",
+    "ethers": "^6.4.0",
+    "hardhat": "^2.19.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "merkletreejs": "^0.3.11",
+    "web3": "^4.7.0"
+  }
+}

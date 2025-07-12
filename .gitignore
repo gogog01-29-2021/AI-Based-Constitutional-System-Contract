@@ -1,0 +1,2 @@
+# Ignore client dependencies
+client/node_modules/
